@@ -9,7 +9,7 @@ const fs = require("fs");
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const discord_token = "NDIyMDM3NzQwNTkxMzgyNTI4.DYV8zA.6vBJjF7Op9T_bH_YOwRMXqwh9vc";
+const discord_token = "NTM2ODg5MTE3NTI3NTA2OTQ0.Dy0hFw.yUCheGvOpaOX_2QjXO5uVA-LZbE";
 var table = require('table').table
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -28,7 +28,7 @@ client.on('ready', function(){
             j = -1;
         }
         i = i+j;
-        client.user.setGame(setGame[i],`http://www.twitch.tv/n3k4a`);
+        client.user.setGame(setGame[i],`http://www.twitch.tv/ledom999`);
     }, ms);
     console.log(` ╔═══╗──╔╗ |> Name: ${client.user.username}`);
  console.log(` ║╔═╗║──║║ |> Servers: ${client.guilds.size}`);
@@ -55,7 +55,7 @@ client.on('ready', function(){
 });
 
 
-console.log('n3k4a is one ');
+console.log('BOT KING  is one ');
 client.on('ready', () => {
   console.log(`im redey`);
 });
